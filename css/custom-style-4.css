@@ -1,0 +1,62 @@
+/* import main fonts */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* init */
+* {
+    --title-font: "Urbanist", Helvetica, Arial, sans-serif;
+    --body-font: "Roboto Slab", Helvetica, Arial, sans-serif;
+}
+
+body{
+    font-size: 16px;
+    color: #404040;
+    background: #E9E9E9;
+    font-weight: 300;
+}
+
+.d_timeline-title:before,
+#back-to-top{
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+
+.de-gradient-edge-top{
+    background: linear-gradient(180deg, rgba(233, 233, 233,1) 0%, rgba(233, 233, 233,0) 100%);
+}
+
+.de-gradient-edge-bottom{
+    background: linear-gradient(0deg, rgba(233, 233, 233,1) 0%, rgba(233, 233, 233,0) 100%);
+}
+
+.form-border input[type=text], .form-border input[type=email], .form-border textarea, .form-underline input[type=email], .form-border input[type=password], .form-border input[type=date], .form-border select{
+    border-color: #404040;
+}
+
+h1,h2,h3,h4,h5,h6,
+.h1{
+    font-weight: 800;
+}
+
+h5.s1,
+.list_location li span,{
+    font-family: var(--body-font);
+}
+
+header{
+    border: none !important;
+}
+
+header.smaller{
+    background: rgba(233, 233, 233, .8);
+}
+
+#mainmenu{
+    font-family: var(--body-font);
+    font-size: 15px;
+}
+
+section{
+    background: #E9E9E9;
+}

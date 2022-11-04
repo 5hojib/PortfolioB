@@ -1,0 +1,33 @@
+/* import main fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* init */
+* {
+    --body-font: "Roboto", Helvetica, Arial, sans-serif;
+    --title-font: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+a.btn-main,
+.btn-main,
+.card-image-1,
+.form-border input[type=text], .form-border input[type=email], .form-border textarea, .form-underline input[type=email], .form-border input[type=password], .form-border input[type=date], .form-border select,
+.post-image
+{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+body{
+    font-size: 16px;
+    color: #999187;
+}
+
+.dark-scheme,p{
+     color: #999187;
+}
+
+h1,h2,h3,h4,h5,h6,
+.h1{
+    font-weight: 600;
+}
