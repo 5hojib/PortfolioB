@@ -4045,7 +4045,7 @@ h1 .small-border {
 
 h1.big,
 .h1_big {
-    font-size: 60px;
+    font-size: 55px;
     margin: 0;
     line-height: 70px;
     text-transform: uppercase;
@@ -17811,7 +17811,7 @@ img {
     h1.big,
     .h1_big,
     h1.ultra-big {
-        font-size: 30px;
+        font-size: 28px;
         line-height: 35px;
     }
 
@@ -17972,7 +17972,7 @@ img {
 
     h1.big,
     h1_big {
-        font-size: 7.8vw;
+        font-size: 7.7vw;
         line-height: 10vw;
     }
 
